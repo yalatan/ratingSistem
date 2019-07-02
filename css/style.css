@@ -1,0 +1,65 @@
+.container {
+    max-width: 600px;
+    min-width: 200px;
+    margin: 1vh auto;
+    text-align: center;
+}
+
+#newFilm {
+    max-width: 300px;
+    min-width: 150px;
+    margin: 1vh 1vw;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+    height: 20px;
+}
+
+#addFilm {
+    color: white;
+    background: rgb(46, 139, 87);
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin: 1vh 1vw;
+}
+
+.film {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+    height: 20px;
+    display: flex;
+    margin: 1vh auto;
+    position: relative;
+}
+
+.spanNameFilm {
+
+    overflow: hidden;
+    max-width: 300px;
+    min-width: 150px;
+    text-align: left;
+}
+
+.spanRate {
+    height: 100%;
+    margin-right: 5px;
+    right: 5px;
+    position: absolute;
+}
+
+.star {
+    height: 100%;
+    cursor: pointer;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.star:hover {
+    color: yellow;
+}
